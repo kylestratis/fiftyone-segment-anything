@@ -10,7 +10,8 @@ In this article, you will learn how to:
 - Segment all detected objects in an image with Segment Anything and view them in FiftyOne
 - Segment all detected objects in all images in a dataset with Segment Anything and view them in FiftyOne
 
-**Note:** You can follow along in the code blocks below or in [this](https://github.com/kylestratis/fiftyone-segment-anything/blob/main/fiftyone_test/Segment%20Anything%20with%20FiftyOne.ipynb) Jupyter Notebook.
+**Note:** You can follow along in the code blocks below or in [this](https://github.com/kylestratis/fiftyone-segment-anything/blob/cbd61dba9a004e8a50a1dd6108e218320594a5e9/fiftyone_SAM_files/Segment%20Anything%20with%20FiftyOne.ipynb) Jupyter Notebook.
+
 ## Setting Up
 
 ### The Environment

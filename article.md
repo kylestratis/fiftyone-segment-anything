@@ -135,7 +135,7 @@ With that done, you can launch the FiftyOne application and look at the segmente
 session = fo.launch_app(sliced_view)
 ```
 
-![[Pasted image 20240723003011.png]]
+![A screenshot of the FiftyOne app showing a 10-image dataset and the first image with a Segment Anything-generated segmentation mask](images/Pasted%20image%2020240723003011.png)
 *A screenshot of the FiftyOne app showing a 10-image dataset and the first image with a Segment Anything-generated segmentation mask*
 
 Putting this code together, you should have:
@@ -214,7 +214,7 @@ session.refresh()
 
 After doing this, you will see 3 segment masks overlaid on the first picture in the dataset:
 
-![[Pasted image 20240723010431.png]]
+![The FiftyOne interface now showing 3 segment masks in the first image of the dataset](images/Pasted%20image%2020240723010431.png)
 *The FiftyOne interface now showing 3 segment masks in the first image of the dataset*
 
 ### Segmenting and Viewing All Detections in All Images in a Dataset
@@ -248,13 +248,13 @@ Again, just reset the FiftyOne session and you'll be able to see segments displa
 session.refresh()
 ```
 
-![[Pasted image 20240723012611.png]]
+![The FiftyOne interface now showing segments for all objects in all images in the dataset](images/Pasted%20image%2020240723012611.png)
 *The FiftyOne interface now showing segments for all objects in all images in the dataset*
 
 With all images segmented, you can now do all kinds of operations on your dataset via FiftyOne. Do you remember saving the mask's confidence score in the prediction dictionary earlier in the tutorial? Now you can filter based on that score: just click "predictions" under "LABELS" and slide the slider to contain any range you want, like this setting that excludes all detections under a 0.9 confidence score:
 
-![[Pasted image 20240723013011.png]]
-*The FiftyOne interface showing only high-confidence segmentation masks and the open predictions panel, revealing the confidence slider.*
+![The FiftyOne interface showing only high-confidence segmentation masks and the open predictions panel, revealing the confidence slider](images/Pasted%20image%2020240723013011.png)
+*The FiftyOne interface showing only high-confidence segmentation masks and the open predictions panel, revealing the confidence slider*
 
 ## Wrapping Up
 
